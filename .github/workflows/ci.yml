@@ -28,8 +28,8 @@ jobs:
           mkdir -p data
           kaggle datasets download -d johnsmith88/heart-disease-dataset -p data --unzip
         env:
-          KAGGLE_USERNAME: ${{ secrets.srajans7 }}
-          KAGGLE_KEY: ${{ secrets.KGAT_7eabc10397b637a9bdf3ee02314c72f5 }}
+          KAGGLE_USERNAME: ${{ secrets.KAGGLE_USERNAME }}
+          KAGGLE_KEY: ${{ secrets.KAGGLE_KEY }}
 
       - name: Run tests
         run: pytest tests/ -v --tb=short
