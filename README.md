@@ -8,9 +8,6 @@ An interactive **Explainable AI (XAI) dashboard** that trains ML models on the
 Heart Disease UCI dataset and explains every prediction using SHAP — with global
 feature importance, individual case analysis, and a live what-if simulator.
 
-> Built as Project 2 of 3 in a Werkstudent AI/ML portfolio, drawing on XAI
-> coursework from Paderborn University.
-
 ---
 
 ## 📸 Dashboard Panels
