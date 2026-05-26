@@ -6,4 +6,4 @@ chroma_db/
 models/*.pkl
 models/scaler.pkl
 .DS_Store
-.pytest_cache/
+.pytest_cache/data/heart.csv
